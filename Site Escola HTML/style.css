@@ -2,6 +2,7 @@ h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 40px;
+    color: white;
 
 
 }
@@ -27,8 +28,57 @@ header{
     left: 0;
     right: 0;
     z-index: 9999;
+    padding: 0px;
 }
 .divisao {
     color: #000000;
     fill: #000000;
+
+}
+.hdescola {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.menu1 {
+    list-style: none;
+    position: absolute;
+    right: 50px;
+    bottom: 25px
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+nav {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    color: white;
+    cursor:pointer;
+    
+}
+
+.menu1 li{
+    display: inline;
+    padding: 10px;
+}
+
+.entrar {
+}
+
+.BotaoEntrar {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
